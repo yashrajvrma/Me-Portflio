@@ -1,6 +1,33 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import Switzer from "next/font/local";
 import "./globals.css";
+
+const switzer = Switzer({
+  src: [
+    {
+      path: "../public/assets/fonts/Switzer-Regular.otf",
+      weight: "400",
+    },
+    {
+      path: "../public/assets/fonts/Switzer-Medium.otf",
+      weight: "500",
+    },
+    {
+      path: "../public/assets/fonts/Switzer-Semibold.otf",
+      weight: "600",
+    },
+    {
+      path: "../public/assets/fonts/Switzer-Bold.otf",
+      weight: "700",
+    },
+    {
+      path: "../public/assets/fonts/Switzer-Extrabold.otf",
+      weight: "800",
+    },
+  ],
+  variable: "--font-switzer",
+});
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -24,11 +51,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
-      </body>
+      <body className={`${switzer.variable} antialiased`}>{children}</body>
     </html>
   );
 }

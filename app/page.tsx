@@ -20,7 +20,7 @@ export default function Home() {
                 alt="profile-photo"
               />
             </div>
-            <div className="text-5xl font-bold">
+            <div className="text-5xl font-switzer font-bold">
               <div>Hey, I’m Yashraj Verma.</div>
               <div>Full Stack Developer</div>
               <div className="text-lg font-medium">
