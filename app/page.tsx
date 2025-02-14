@@ -3,6 +3,7 @@ import About from "./components/about";
 import Button from "./components/button";
 import Navbar from "./components/navbar";
 import { DotLottieReact } from "@lottiefiles/dotlottie-react";
+import WorkExperience from "./components/workExp";
 
 export default function Home() {
   return (
@@ -61,6 +62,11 @@ export default function Home() {
         {/* About section   */}
         <div className="about-section flex justify-center items-start mt-20">
           <About />
+        </div>
+
+        {/* Work Experience */}
+        <div className="workExp-section flex justify-center mt-32">
+          <WorkExperience />
         </div>
       </div>
     </div>
