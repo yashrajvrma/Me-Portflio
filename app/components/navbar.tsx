@@ -39,6 +39,7 @@ export default function Navbar() {
         <Button buttonName="Book a call" />
       </div>
     </div>
+
     // </div>
   );
 }

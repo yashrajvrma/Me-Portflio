@@ -11,19 +11,23 @@ export default function Home() {
           <Navbar />
         </div>
         {/* Main section */}
-        <div className="flex justify-center items-center">
-          <div className="main-section flex flex-col justify-start items=start gap-y-5 mt-20 px-32">
+        <div className="flex justify-center items-center  mt-36">
+          <div className="main-section flex flex-col justify-start items=start max-w-xl gap-y-5">
             <div>
               <img
-                className="w-32 h-32 rounded-full flex items-start"
+                className="w-28 h-28 rounded-full flex items-start"
                 src="https://framerusercontent.com/images/ocqXLO2ydBuL2Vv9DNXMhcLr0dY.jpg"
                 alt="profile-photo"
               />
             </div>
-            <div className="text-5xl font-switzer font-bold">
-              <div>Hey, I’m Yashraj Verma.</div>
-              <div>Full Stack Developer</div>
-              <div className="text-lg font-medium">
+            <div className="font-switzer tracking-tighter text-neutral-900">
+              <div className="text-5xl font-semibold py-2">
+                Hey, I’m Yashraj.
+              </div>
+              <div className="text-5xl font-semibold ">
+                Full Stack Developer
+              </div>
+              <div className="text-lg/6 text-neutral-500 pt-5 pb-4 tracking-normal">
                 Crafting seamless experiences and bold visuals. High school
                 student by day, creative thinker, and aspiring innovator by
                 night.
