@@ -13,7 +13,7 @@ export default function MainSection() {
       </div>
       <div className="font-switzer text-neutral-900">
         <div className="text-5xl font-semibold py-2 tracking-tight">
-          Hey, I’m <span className="text-green-600">Yashraj Verma</span>.
+          Hey, I’m <span className="text-green-600">Yashraj Verma.</span>
         </div>
         <div className="text-5xl font-semibold tracking-tight ">
           <span className="text-pink-400">Full Stack</span> Developer
@@ -25,7 +25,7 @@ export default function MainSection() {
       </div>
       <div className="flex flex-row gap-4">
         <Button buttonName="Book a call" />
-        <button className="bg-green-100 text-green-600 font-switzer font-semibold text-lg rounded-full px-6 py-2">
+        <button className="bg-green-100 text-lime-700 font-switzer font-bold text-lg rounded-full px-6 py-2">
           <div className="flex flex-row justify-center items-center align-middle gap-x-1">
             <span>
               <DotLottieReact
@@ -33,8 +33,8 @@ export default function MainSection() {
                 loop
                 autoplay
                 style={{
-                  width: 20,
-                  height: 20,
+                  width: 24,
+                  height: 24,
                   padding: 0,
                   margin: 0,
                 }}

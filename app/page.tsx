@@ -18,7 +18,7 @@ export default function Home() {
           <MainSection />
         </div>
         {/* About section   */}
-        <div className="about-section flex justify-center items-center mt-32">
+        <div className="about-section flex justify-center items-start mt-32">
           <About />
         </div>
 
