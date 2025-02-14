@@ -3,7 +3,10 @@ import Button from "./button";
 
 export default function MainSection() {
   return (
-    <div className="main-section flex flex-col justify-center items-start w-full max-w-xl gap-y-5">
+    <div
+      id="main-section"
+      className="main-section flex flex-col justify-center items-start w-full max-w-xl gap-y-5"
+    >
       <div>
         <img
           className="w-28 h-28 rounded-full"

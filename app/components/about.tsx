@@ -20,7 +20,7 @@ export default function About() {
         <span className="font-sans font-semibold"> @</span>
         <Link
           className="text-blue-600 hover:border-b-2 border-blue-400"
-          href="https://www.tcetmumbai.in/"
+          href="https://www.linkedin.com/company/techluminix-pvt-ltd"
           target="blank"
         >
           TechLuminix
