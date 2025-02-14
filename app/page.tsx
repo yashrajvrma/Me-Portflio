@@ -1,4 +1,5 @@
 "use client";
+import About from "./components/about";
 import Button from "./components/button";
 import Navbar from "./components/navbar";
 import { DotLottieReact } from "@lottiefiles/dotlottie-react";
@@ -11,7 +12,7 @@ export default function Home() {
           <Navbar />
         </div>
         {/* Main section */}
-        <div className="flex justify-center items-center  mt-36">
+        <div className="flex justify-center items-center mt-36">
           <div className="main-section flex flex-col justify-start items=start max-w-xl gap-y-5">
             <div>
               <img
@@ -55,42 +56,11 @@ export default function Home() {
                 </div>
               </button>
             </div>
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
           </div>
+        </div>
+        {/* About section   */}
+        <div className="about-section flex justify-center items-start mt-20">
+          <About />
         </div>
       </div>
     </div>
