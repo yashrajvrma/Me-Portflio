@@ -23,7 +23,7 @@ export default function Navbar() {
         />
       </div>
       <div className="hover:bg-neutral-200 hover:cursor-pointer py-3 px-4 rounded-2xl">
-        <Github strokeWidth={1.5} />
+        <Github strokeWidth={1.5} size={19} />
       </div>
       <div className="hover:bg-neutral-200 hover:cursor-pointer py-3 px-4 rounded-2xl">
         <img
